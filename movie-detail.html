@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineFile</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./assets/css/md-style.css">
+
+</head>
+
+<body>
+    <header class="w3-black w3-center">
+        <section class="w3-display-container">
+            <img src="./assets/images/CineFile-header.png" alt="headerimage" class="w3-image" style="width:100%">
+        </section>
+        <section class="w3-bar w3-black">
+            <a href="./index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="./watchlist.html" class="w3-bar-item w3-button">Watch List</a>
+        </section>
+    </header>
+
+    <main class="w3-container w3-black">
+        <section class="w3-cell-row">
+            <section class="w3-cell-bottom details w3-white">
+                <img id="poster" class="w3-round w3-margin" alt="Movie Poster"></img>
+                <section>
+                    <button class="w3-button w3-black w3-round-xlarge" id="addToWatch">Add to
+                        Watchlist</button>
+                    <button class="w3-button w3-black w3-round-xlarge" id="markAsSeen">Mark as Seen</button>
+                </section>
+
+            </section>
+            <section class="w3-cell w3-white details">
+                <h2 class="w3-padding" id="movie-title">
+                </h2>
+                <h3 class="w3-padding" id="year">
+                </h3>
+                <h3 class="w3-padding" id="rating">
+                </h3>
+                <section class="w3-padding" id="synopsis">
+                </section>
+            </section>
+        </section>
+    </main>
+    <article class="w3-container myColors w3-center w3-margin-bottom">
+        <h3 class="w3-black">
+            Movie Trailer
+        </h3>
+
+        <section class="w3-margin-bottom" id="trailer-video">
+        </section>
+    </article>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/js/md-script.js"></script>
+</body>
+
+</html>
